@@ -15,6 +15,8 @@ namespace CursoCSharp
                 {"Interferenica Programa - Fundamentos", Interferencia.Executar},
                 {"Interpolação Programa - Fundamentos", InterporlaçãoDeStrings.Executar},
                 {"Notacao de Ponto Programa - Fundamentos", NotacaoPonto.Executar},
+                {"lendo Dados do Console - Fundamentos", LendoDadosDoConsole.Executar},
+                {"Formatando Numeros - Fundamentos", FormatandoNumeros.Executar},
             });
 
             central.SelecionarEExecutar();
