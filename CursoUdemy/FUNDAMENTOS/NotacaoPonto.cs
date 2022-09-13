@@ -10,7 +10,7 @@ namespace CursoUdemy.FUNDAMENTOS
     {
         public static void Executar()
         {
-            Console.WriteLine("ola");
+            Console.WriteLine("teste");
         }
     }
 }
