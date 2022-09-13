@@ -10,7 +10,8 @@ namespace CursoUdemy.FUNDAMENTOS
     {
         public static void Executar()
         {
-            Console.WriteLine("teste");
+            var saudacao = "ola".ToUpper().Insert(3, " Mundo").Replace(" Mundo", " Globo");
+            Console.WriteLine(saudacao);
         }
     }
 }
