@@ -10,7 +10,10 @@ namespace CursoUdemy.FUNDAMENTOS
     {
         public static void Executar()
         {
-
+            var nota = 7.0;
+            bool bomcomportamento = true;
+            var resultado = nota >= 7.0 && bomcomportamento ? "Aprovado" : "Reprovado";
+            Console.WriteLine(resultado);
         }
     }
 }
