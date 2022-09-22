@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoUdemy.ESTRUTURASDECONTROLE
 {
-    internal class EstruturaWhile
+    internal class EstruturaDoWhile
     {
         public static void Executar()
         {
@@ -17,8 +17,8 @@ namespace CursoUdemy.ESTRUTURASDECONTROLE
             bool numeroEncontrado = false;
             int tentativasRestantes = 5;
             int tentativas = 0;
-
-            while (tentativasRestantes > 0 && !numeroEncontrado)
+            // PELO MENOS 1 VEZ O DO WHILE É EXECUTADO, DIFERENTE DE APENAS WHILE
+            do
             {
                 Console.WriteLine("Insira seu palpite: ");
                 string entrada = Console.ReadLine();
@@ -45,7 +45,7 @@ namespace CursoUdemy.ESTRUTURASDECONTROLE
                     Console.WriteLine("Maior... Tente novamente");
                     Console.WriteLine("Tentativas restantes: ", tentativasRestantes);
                 }
-            }
+            } while (tentativasRestantes > 0 && !numeroEncontrado);
         }
     }
 }
