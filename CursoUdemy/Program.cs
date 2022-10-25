@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using CursoUdemy.FUNDAMENTOS;
 using CursoUdemy.ESTRUTURASDECONTROLE;
+using CursoUdemy.CLASSESEMETODOS;
+
 namespace CursoCSharp
 
 {
@@ -35,6 +37,8 @@ namespace CursoCSharp
                 {"Estrura do ForEach -  Estruturas de Controle", ForEach.Executar},
                 {"Estrura do Break -  Estruturas de Controle", Break.Executar},
                 {"Estrura do Continue -  Estruturas de Controle", Continue.Executar},
+                // Classes e Metodos
+                {"Membros - Classes e Metodos", AtributoseMetodos.Executar},
             });
 
             central.SelecionarEExecutar();
