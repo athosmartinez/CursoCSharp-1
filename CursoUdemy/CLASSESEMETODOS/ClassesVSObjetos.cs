@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 namespace CursoUdemy.CLASSESEMETODOS
 {
     internal class ClassesVSObjetos
-    {
+    {   
+        public static void Executar()
+        {
+
+        }
     }
 }
