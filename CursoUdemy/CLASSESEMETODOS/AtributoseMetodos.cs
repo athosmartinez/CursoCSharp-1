@@ -13,7 +13,7 @@ namespace CursoUdemy.CLASSESEMETODOS
             Pessoa sicrano = new Pessoa();
             sicrano.Nome = "Renato";
             sicrano.Idade = 21;
-            Console.WriteLine($"{ sicrano.Nome} tem {sicrano.Idade} anos.");
+            Console.WriteLine($"{sicrano.Nome} tem {sicrano.Idade} anos.");
 
             // Console.Writeline($"Olá! Me chamo {Nome} e tenho {Idade} anos.")
             sicrano.ApresentarNoConsole();

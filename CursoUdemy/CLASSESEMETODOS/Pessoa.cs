@@ -9,6 +9,7 @@ namespace CursoUdemy.CLASSESEMETODOS
 {
     internal class Pessoa
     {
+        // Atributos
         public string Nome;
         public int Idade;
 
