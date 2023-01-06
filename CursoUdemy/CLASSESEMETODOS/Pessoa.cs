@@ -12,6 +12,7 @@ namespace CursoUdemy.CLASSESEMETODOS
         // Atributos
         public string Nome;
         public int Idade;
+        public int Teste;
 
         public string Apresentar()
         {
