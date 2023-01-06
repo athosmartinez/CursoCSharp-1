@@ -16,7 +16,7 @@ namespace CursoUdemy.CLASSESEMETODOS
             sicrano.Teste = 31;
             Console.WriteLine($"{sicrano.Nome} tem {sicrano.Idade} anos. {sicrano.Teste}");
 
-            // Console.Writeline($"Olá! Me chamo {Nome} e tenho {Idade} anos.")
+            //Console.Writeline($"Olá! Me chamo {Nome} e tenho {Idade} anos.")
             sicrano.ApresentarNoConsole();
             sicrano.Zerar();
             sicrano.ApresentarNoConsole();
