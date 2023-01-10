@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoUdemy.CLASSESEMETODOS
 {
-
-    class Carro
+        public class Carro
     {
         public string Modelo;
         public string Fabricante;
