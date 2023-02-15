@@ -22,7 +22,6 @@ namespace CursoUdemy.COLECOES
                 Console.WriteLine(aluno);
             }
 
-
             double somatorio = 0;
             double[] notas = { 9.7, 8.4, 5, 9.9, 8.6 };
 

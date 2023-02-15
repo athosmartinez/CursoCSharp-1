@@ -58,6 +58,7 @@ namespace CursoCSharp
                 {"Parametros Padrao - Classes e Metodos", ParametroPadrao.Executar},
                 //COLECOES
                 {"Array", CursoUdemy.COLECOES.Array.Executar},
+                {"Array", Lista.Executar},
             });
 
             central.SelecionarEExecutar();
