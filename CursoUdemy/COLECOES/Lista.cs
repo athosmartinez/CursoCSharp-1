@@ -30,16 +30,22 @@ namespace CursoUdemy.COLECOES
             {
                 new Product("Camisa 1", 30.0),
                 new Product("Camisa 2", 50.0),
-                new Product("Camisa 3",70.0)
+                new Product("Camisa 3", 70.0)
             };
             carrinho.AddRange(combo);
             Console.WriteLine(carrinho.Count);
+            carrinho.RemoveAt(0);
 
             foreach (var item in carrinho)
             {
                 Console.Write(carrinho.IndexOf(item));
                 Console.WriteLine($" {item.Nome} {item.Preco}");
             }
+
+            Console.WriteLine(carrinho.Count);
+            carrinho.Add(livro);
+            Console.WriteLine(carrinho.LastIndexOf(livro));
+            
         }
     }
 }
