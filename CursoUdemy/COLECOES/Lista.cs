@@ -26,6 +26,11 @@ namespace CursoUdemy.COLECOES
 
             return mesmoNome && mesmoPreco;
         }
+
+        public override int GetHashCode()
+        {
+            return Nome.Length;
+        }
     }
 
     class Lista
