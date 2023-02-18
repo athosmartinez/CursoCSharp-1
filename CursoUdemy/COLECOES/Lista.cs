@@ -29,7 +29,7 @@ namespace CursoUdemy.COLECOES
 
         public override int GetHashCode()
         {
-            return Nome.Length;
+            return HashCode.Combine(Nome, Preco);
         }
     }
 
