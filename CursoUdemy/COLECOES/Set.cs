@@ -18,6 +18,7 @@ namespace CursoUdemy.COLECOES
             {
                 new Product("Livro 1", 30.0),
                 new Product("Livro 2", 50.0),
+                new Product("Livro 3", 70.0),
                 new Product("Livro 3", 70.0)
             };
             carrinho.UnionWith(combo);

@@ -17,6 +17,15 @@ namespace CursoUdemy.COLECOES
             Nome = nome;
             Preco = preco;
         }
+
+        public override bool Equals(object? obj)
+        {
+            Product outroProduto = (Product)obj;
+            bool mesmoNome = Nome == outroProduto.Nome;
+            bool mesmoPreco = Preco == outroProduto.Preco;
+
+            return mesmoNome && mesmoPreco;
+        }
     }
 
     class Lista
@@ -45,7 +54,7 @@ namespace CursoUdemy.COLECOES
             Console.WriteLine(carrinho.Count);
             carrinho.Add(livro);
             Console.WriteLine(carrinho.LastIndexOf(livro));
-            
+
         }
     }
 }
