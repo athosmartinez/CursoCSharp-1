@@ -16,8 +16,6 @@ namespace CursoUdemy.OO
             VelocidadeMaxima = velocidadeMaxima;
         }
 
-
-
         protected int AlterarVelocidade(int delta)
         {
             int novaVelocidade = VelocidadeAtual + delta;
