@@ -4,6 +4,7 @@ using CursoUdemy.FUNDAMENTOS;
 using CursoUdemy.ESTRUTURASDECONTROLE;
 using CursoUdemy.CLASSESEMETODOS;
 using CursoUdemy.COLECOES;
+using CursoUdemy.OO;
 
 namespace CursoCSharp
 
@@ -57,14 +58,17 @@ namespace CursoCSharp
                 {"Parametros por Referencia - Classes e Metodos", ParametrosPorRef.Executar},
                 {"Parametros Padrao - Classes e Metodos", ParametroPadrao.Executar},
                 //COLECOES
-                {"Coleções - Array", CursoUdemy.COLECOES.Array.Executar},
-                {"Coleções - Lista", Lista.Executar},
-                {"Coleções - Array List", ListaArray.Executar},
-                {"Coleções - Set", Set.Executar},
-                {"Coleções - Queue", Fila.Executar},
-                {"Coleções - Igualdade", Igualdade.Executar},
-                {"Coleções - Stack", Pilha.Executar},
-                {"Coleções - Dicionario", Dicionario.Executar}
+                {"Array - Coleções", CursoUdemy.COLECOES.Array.Executar},
+                {"Lista - Coleções", Lista.Executar},
+                {"Array List - Coleções", ListaArray.Executar},
+                {"Set - Coleções", Set.Executar},
+                {"Queue - Coleções", Fila.Executar},
+                {"Igualdade - Coleções", Igualdade.Executar},
+                {"Stack - Coleções", Pilha.Executar},
+                {"Dicionario - Coleções", Dicionario.Executar},
+                //OO 
+                {"Herança - OO", Herança.Executar},
+
 
 
             });
