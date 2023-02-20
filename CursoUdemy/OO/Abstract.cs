@@ -15,12 +15,35 @@ namespace CursoUdemy.OO
             return "Truim truim truim...";
         }
     }
+
+    public class Samsung : Celular
+    {
+        public override string Assistente()
+        {
+            return "Olá meu nome é Bixby!";
+        }
+    }
+
+    public class Iphone : Celular
+    {
+        public override string Assistente()
+        {
+            return "Olá meu nome é Siri!";
+        }
+    }
+
     internal class Abstract
     {
         public static void Executar()
         {
-            Celular c = new Celular();
+            var celular = new List<Celular> { new Iphone(),
+                new Samsung()};
 
+            foreach (var celulares in celular)
+            {
+
+                Console.WriteLine(celulares.Assistente());
+            }
         }
     }
 }
