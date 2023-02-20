@@ -68,11 +68,14 @@ namespace CursoCSharp
                 {"Dicionario - Coleções", Dicionario.Executar},
                 //OO 
                 {"Herança - OO", Heranca.Executar},
-                {"This - OO", ConstrutorThis.Executar}
+                {"This - OO", ConstrutorThis.Executar},
+                {"Encapsulamento - OO", CursoUdemy.OO.Encapsulamento.Executar },
+                {"Polimorfismo - OO", Polimorfismo.Executar},
+                {"Polimorfismo - OO", Polimorfismo.Executar}
 
 
 
-            });
+            }); ;
 
             central.SelecionarEExecutar();
         }
