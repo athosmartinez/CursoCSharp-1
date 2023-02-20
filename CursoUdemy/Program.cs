@@ -67,7 +67,7 @@ namespace CursoCSharp
                 {"Stack - Coleções", Pilha.Executar},
                 {"Dicionario - Coleções", Dicionario.Executar},
                 //OO 
-                {"Herança - OO", Herança.Executar},
+                {"Herança - OO", Heranca.Executar},
 
 
 
