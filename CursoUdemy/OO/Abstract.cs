@@ -41,7 +41,6 @@ namespace CursoUdemy.OO
 
             foreach (var celulares in celular)
             {
-
                 Console.WriteLine(celulares.Assistente());
             }
         }
