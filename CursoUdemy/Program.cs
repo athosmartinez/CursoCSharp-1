@@ -5,6 +5,7 @@ using CursoUdemy.ESTRUTURASDECONTROLE;
 using CursoUdemy.CLASSESEMETODOS;
 using CursoUdemy.COLECOES;
 using CursoUdemy.OO;
+using CursoUdemy.METODOSEFUNCOES;
 
 namespace CursoCSharp
 
@@ -73,7 +74,9 @@ namespace CursoCSharp
                 {"Polimorfismo - OO", Polimorfismo.Executar},
                 {"Abstract - OO", Abstract.Executar},
                 {"Interface - OO", Interface.Executar},
-                {"Sealed - OO", Sealed.Executar}
+                {"Sealed - OO", Sealed.Executar},
+                //METODOS E FUNCOES
+                {"Lambda - Metodos e funções", Lambda.Executar},
 
 
 

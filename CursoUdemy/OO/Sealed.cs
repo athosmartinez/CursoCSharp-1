@@ -46,8 +46,8 @@ namespace CursoUdemy.OO
     {
         public static void Executar()
         {
-            SemFilho semFilho = new SemFilho();
-            Console.WriteLine(semFilho.valorF);
+            SemFilho semfilho = new SemFilho();
+            Console.WriteLine(semfilho.valorF());
 
             FilhoRebelde filho = new FilhoRebelde();
             Console.WriteLine(filho.HonrarNomeFamilia());
