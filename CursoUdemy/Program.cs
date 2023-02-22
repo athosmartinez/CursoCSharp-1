@@ -76,8 +76,9 @@ namespace CursoCSharp
                 {"Interface - OO", Interface.Executar},
                 {"Sealed - OO", Sealed.Executar},
                 //METODOS E FUNCOES
-                {"Lambda - Metodos e funções", Lambda.Executar}
-
+                {"Lambda - Metodos e funções", Lambda.Executar},
+                {"Lambda como delegates - Metodos e funções", LambdasDelegate.Executar},
+                {"Ussando Delegates - Metodos e funções", UsandoDelegates.Executar},
 
 
 
