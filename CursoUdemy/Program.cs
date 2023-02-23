@@ -6,6 +6,7 @@ using CursoUdemy.CLASSESEMETODOS;
 using CursoUdemy.COLECOES;
 using CursoUdemy.OO;
 using CursoUdemy.METODOSEFUNCOES;
+using CursoUdemy.EXECECOES;
 
 namespace CursoCSharp
 
@@ -81,7 +82,10 @@ namespace CursoCSharp
                 {"Usando Delegates - Metodos e funções", UsandoDelegates.Executar},
                 {"Delegate com funcoes anonimas Delegates - Metodos e funções", DelegatefFuncAno.Executar},
                 {"Delegate com parametros - Metodos e funções", DelegatesComPara.Executar},
-                {"Metodos e Extensão - Metodos e funções", FuncaoExtensao.Executar}
+                {"Metodos e Extensão - Metodos e funções", FuncaoExtensao.Executar},
+                //EXCEÇÕES
+                {"Exceções e tratamento de erro - Exceções", Exececoes.Executar},
+
 
 
 
