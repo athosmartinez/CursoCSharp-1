@@ -7,6 +7,7 @@ using CursoUdemy.COLECOES;
 using CursoUdemy.OO;
 using CursoUdemy.METODOSEFUNCOES;
 using CursoUdemy.EXECECOES;
+using CursoUdemy.API;
 
 namespace CursoCSharp
 
@@ -85,8 +86,9 @@ namespace CursoCSharp
                 {"Metodos e Extensão - Metodos e funções", FuncaoExtensao.Executar},
                 //EXCEÇÕES
                 {"Exceções e tratamento de erro - Exceções", Exececoes.Executar},
-                {"Exceções personalizadas - Exceções", ExececoesPersonalizadas.Executar}
-
+                {"Exceções personalizadas - Exceções", ExececoesPersonalizadas.Executar},
+                //API
+                {"Primeiro Arquivo- API", PrimeiroArquivo.Executar},
 
 
 
