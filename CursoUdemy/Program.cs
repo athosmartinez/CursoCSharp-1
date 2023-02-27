@@ -92,6 +92,8 @@ namespace CursoCSharp
                 {"Leitura Arquivo- API", LeituraArquivo.Executar},
                 {"File Info - API", ExemploFileInfo.Executar},
                  {"Exemplo diretorios - API", ExemploDiretorios.Executar},
+                 {"Exemplo DirectoryInfo - API", ExemploDiretoriosInfo.Executar},
+                  {"Exemplo Path - API", ExemploPath.Executar},
 
 
             }); ;
