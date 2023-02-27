@@ -8,6 +8,8 @@ using CursoUdemy.OO;
 using CursoUdemy.METODOSEFUNCOES;
 using CursoUdemy.EXECECOES;
 using CursoUdemy.API;
+using CursoUdemy.LINQ;
+using CursoUdemy.TOPICOSAVANCADOS;
 
 namespace CursoCSharp
 
@@ -91,9 +93,17 @@ namespace CursoCSharp
                 {"Primeiro Arquivo- API", PrimeiroArquivo.Executar},
                 {"Leitura Arquivo- API", LeituraArquivo.Executar},
                 {"File Info - API", ExemploFileInfo.Executar},
-                 {"Exemplo diretorios - API", ExemploDiretorios.Executar},
-                 {"Exemplo DirectoryInfo - API", ExemploDiretoriosInfo.Executar},
-                  {"Exemplo Path - API", ExemploPath.Executar},
+                {"Exemplo diretorios - API", ExemploDiretorios.Executar},
+                {"Exemplo DirectoryInfo - API", ExemploDiretoriosInfo.Executar},
+                {"Exemplo Path - API", ExemploPath.Executar},
+                {"Exemplo Path - API", ExemploDateTime.Executar},
+                {"Exemplo TimeSpan - API", ExemploTimeSpan.Executar},
+                //TOPICOS AVANÇADOS
+                {"LINQ1 - Topicos Avançados", LINQ1.Executar},
+                {"LINQ2 - Topicos Avançados", LINQ2.Executar},
+                {"Nullabes - Topicos Avançados", Nullables.Executar},
+                {"Dynamic - Topicos Avançados", Dynamic.Executar},
+                {"Generics - Topicos Avançados", Genericos.Executar}
 
 
             }); ;
