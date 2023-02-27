@@ -89,7 +89,8 @@ namespace CursoCSharp
                 {"Exceções personalizadas - Exceções", ExececoesPersonalizadas.Executar},
                 //API
                 {"Primeiro Arquivo- API", PrimeiroArquivo.Executar},
-
+                {"Leitura Arquivo- API", LeituraArquivo.Executar},
+                {"File Info - API", ExemploFileInfo.Executar},
 
 
             }); ;
